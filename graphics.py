@@ -27,7 +27,7 @@ def drawStars(stars, cam, max_dist=None):
             pass
         else:
             x = float(star.x)
-            y = float(star.z)
+            y = float(star.y)
             z = float(star.z)
 
             lum = float(star.lum)
